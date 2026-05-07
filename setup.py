@@ -6,14 +6,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="spectrum-occupancy-analysis",
+    name="sparse-radiomap",
     version="1.0.0",
     author="Serhat Tadik",
     author_email="your.email@example.com",
-    description="Georeferenced spectrum occupancy analysis using spatially sparse monitoring data",
+    description="Transmitter localization and radio map reconstruction from sparse sensor networks",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/icc_scripts",
+    url="https://github.com/serhatadik/sparse-radiomap",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[

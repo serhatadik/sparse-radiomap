@@ -12,7 +12,7 @@ Both pipelines plug into three propagation models in `src/propagation/`: log-dis
 ## Repository layout
 
 ```
-latent-sc/
+sparse-radiomap/
 ├── config/
 │   ├── parameters.yaml             # Pipeline hyperparameters
 │   ├── sionna_parameters.yaml      # Ray-tracing settings
