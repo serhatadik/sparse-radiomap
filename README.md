@@ -7,6 +7,8 @@ Code for transmitter localization and radio-map reconstruction from spatially sp
 
 Both pipelines plug into three propagation models in `src/propagation/`: log-distance, TIREM, and NVIDIA Sionna RT.
 
+`src/` holds the building blocks. The vectorized PMF and validation-point prediction for the likelihood pipeline live in `scripts/run_likelihood_reconstruction.py`. The IC subset selection and per-TX path-loss-exponent refit for the GLRT pipeline live in `scripts/candidate_analysis.py`, called from `scripts/sweep/experiment.py`.
+
 ---
 
 ## Repository layout
