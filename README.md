@@ -1,4 +1,4 @@
-# Latent Spectrum Reconstruction
+# Transmitter Localization and Radio Map Reconstruction from Sparse Sensor Networks
 
 Code for transmitter localization and radio-map reconstruction from spatially sparse sensor measurements. Two estimation pipelines are implemented end-to-end and evaluated on the POWDER 5-transmitter campaign:
 
